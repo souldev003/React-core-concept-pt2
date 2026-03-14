@@ -8,3 +8,21 @@
     width: 50%;
     border-radius: 20px;
 }
+
+.albums {
+    border: 2px solid aquamarine;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.album {
+    border: 2px solid seagreen;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.count {
+    border: 2px solid limegreen;
+    border-radius: 15px;
+
+}
