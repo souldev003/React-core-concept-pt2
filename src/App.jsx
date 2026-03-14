@@ -1,7 +1,9 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Batsman from "./batsman";
 import Friends from "./friends";
+import ChangeDecoration from "./click";
+import Button from "./button";
 
 const fetchFriends = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -34,8 +36,18 @@ function App() {
       <Suspense fallback={<h2>Loading....</h2>}>
         <Friends friendsPromise={friendsPromise}></Friends>
       </Suspense>
+
+      <button onClick={ChangeDecoration}>Hello</button>
+      <Button></Button>
     </>
   );
 }
+
+// function useName(initialName) {
+//   let name = initialName;
+//   function setName(newName) {
+//     name = newName;
+//   }
+// }
 
 export default App;

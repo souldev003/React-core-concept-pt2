@@ -81,3 +81,19 @@ h1 {
     margin: 20px 0;
   }
 }
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(42, 13, 124);
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid rgb(82, 100, 255);
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px rgba(71, 105, 255, 0.747);
+}
