@@ -6,6 +6,7 @@ import Button from "./button";
 import { Suspense } from "react";
 import Albums from "./albums";
 import ClickToCount from "./count";
+import ShowHide from "./visibility";
 
 const fetchFriends = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -40,6 +41,9 @@ function App() {
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handClicker3}>Hi There</button>
       <button onClick={() => showBonus(5)}>Get Bonus</button> */}
+
+      <ShowHide></ShowHide>
+
       <Batsman />
 
       <Suspense fallback={<h2>Loading....</h2>}>
