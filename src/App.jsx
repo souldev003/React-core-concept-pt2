@@ -1,4 +1,3 @@
-import { Suspense, useState } from "react";
 import "./App.css";
 import Batsman from "./batsman";
 import Friends from "./friends";
